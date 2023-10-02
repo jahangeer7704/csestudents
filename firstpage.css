@@ -112,7 +112,6 @@ color: var(--col1);
 }
 .content a:active{
   scale: .99;
-  border: 2px solid black;
 }
 section{
   display: grid;

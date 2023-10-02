@@ -61,7 +61,7 @@
   width: 80%;
   margin-left: 10%;
   margin-top: 3%;
-  box-shadow: 4px 4px 4px black,8px 8px 4px var(--col1),12px 12px 4px;
+  box-shadow: -2px -2px 8px var(--col1),2px 2px 8px var(--col1);
   border-radius: 10px;
   display: grid;
 grid-template-areas: 

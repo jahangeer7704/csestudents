@@ -10,12 +10,13 @@
 :root {
   --col1: #9d22f4;
   --col2: #f2ebef;
-  --col3: #d5777e;
+  --col3: #d577d537;
   --col4: #0f0019;
 }
 .container {
   height: 100vh;
   width: 100vw;
+  background-color: var(--col3);
 }
 .nav {
   width: 100vw;
@@ -107,4 +108,40 @@ section{
   display: grid;
   place-items: center;
   height: 100%;
+}
+@media screen and (width<=600px){
+  .achariya,
+.line{
+  font-size: 10px;
+}
+.approvel {
+  font-size: 5px;
+}
+.header-li:nth-child(2) {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.header-li img {
+  height: 50px;
+  width: 40px;
+}
+.nav{
+height: 50px;
+}
+.content{
+  width: 90%;
+  margin-left:5% ;
+  box-shadow: none;
+  grid-template-areas: 
+'dep'
+'seca'' secb'
+'thia'' thib'
+'fourth'
+;
+background-color: transparent;
+grid-template-rows: .5fr repeat(5,1fr);
+}
+
+
 }

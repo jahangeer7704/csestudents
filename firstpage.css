@@ -5,6 +5,7 @@
   list-style: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-decoration: none;
+  overflow: auto;
 
 }
 :root {
@@ -21,6 +22,7 @@
 .nav {
   width: 100vw;
   height: 80px;
+  border-bottom: 2px solid var(--col1);
 }
 .achariya,
 .line {
@@ -55,7 +57,7 @@
   align-items: center;
 }
 
-.content{
+.content-firstpage{
   height: 80%;
   background-color:var(--col1);
   width: 80%;
@@ -99,7 +101,7 @@ color: var(--col1);
 
 
 }
-:where(.content a,.title) 
+:where(.content-firstpage a,.title) 
 {
   background-color: var(--col2);
   border-radius: 10px;
@@ -107,10 +109,10 @@ color: var(--col1);
 
 
 }
-.content a{
+.content-firstpage a{
   font-size: 20px;
 }
-.content a:active{
+.content-firstpage a:active{
   scale: .99;
 }
 section{
@@ -138,7 +140,7 @@ justify-content: center;
 .nav{
 height: 50px;
 }
-.content{
+.content-firstpage{
   width: 90%;
   margin-left:5% ;
   box-shadow: none;

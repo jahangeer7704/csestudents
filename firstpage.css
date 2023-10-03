@@ -5,8 +5,7 @@
   list-style: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-decoration: none;
-  overflow: auto;
-
+overflow: auto;
 }
 :root {
   --col1: #9d22f4;

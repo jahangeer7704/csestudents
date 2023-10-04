@@ -15,6 +15,8 @@
   height: 100vh;
   width: 100vw;
   background-color: var(--col2);
+  overflow: auto;
+
 }
 .nav {
   width: 100vw;

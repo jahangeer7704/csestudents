@@ -5,7 +5,6 @@
   list-style: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-decoration: none;
-overflow: auto;
 }
 :root {
   --col1: #9d22f4;
@@ -118,39 +117,40 @@ section{
   place-items: center;
   height: 100%;
 }
-@media screen and (width<=600px){
+
+@media  screen and (width<600px) {
   .achariya,
-.line{
-  font-size: 10px;
-}
-.approvel {
-  font-size: 5px;
-}
-.header-li:nth-child(2) {
-  display: flex;
-flex-direction: column;
-justify-content: center;
-}
-.header-li img {
+  .line{
+    font-size: 10px;
+  }
+  .approvel {
+    font-size: 5px;
+  }
+  .header-li:nth-child(2) {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  .header-li img {
+    height: 50px;
+    width: 40px;
+  }
+  .nav{
   height: 50px;
-  width: 40px;
-}
-.nav{
-height: 50px;
-}
-.content-firstpage{
-  width: 90%;
-  margin-left:5% ;
-  box-shadow: none;
-  grid-template-areas: 
-'dep'
-'seca'' secb'
-'thia'' thib'
-'fourth'
-;
-background-color: transparent;
-grid-template-rows: .5fr repeat(5,1fr);
-}
-
-
+  }
+  .content-firstpage{
+    width: 90%;
+    margin-left:5% ;
+    box-shadow: none;
+    grid-template-areas: 
+  'dep'
+  'seca'' secb'
+  'thia'' thib'
+  'fourth'
+  ;
+  background-color: transparent;
+  grid-template-rows: .5fr repeat(5,1fr);
+  }
+  
+  
 }

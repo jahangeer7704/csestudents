@@ -3,52 +3,51 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" -firstpage="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./firstpage.css">
-
+<link rel="stylesheet" href="./output.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="head">
-            <nav class="nav">
-                <ul class="header-ul">
-                    <li class="header-li"><img src="./download.png" alt=""></li>
-                    <li class="header-li">
-                        <p class="achariya">ACHARIYA</p>
-                        <p class="line">COLLEGE OF ENGINEERING TECHNOLOGY</p>
-                        <p class="approvel">APPROVED BY AICTE NEW DELHI & AFFILIATED TO PONDICHERRY UNIVERSITY <BR>
+    <div class="h-screen box-border overflow-auto">
+        <header class=" h-24">
+            <nav class="">
+                <ul class="h-full flex flex-row justify-between md:h-24 overflow-auto">
+                    <li ><img class="h-20  md:h-24" src="./download.png" alt=""></li>
+                    <li class="h-20 text-xs sm:text-sm md:text-lg mt-3 md:mt-0">
+                        <p class="text-red-500 font-bold">ACHARIYA</p>
+                        <p  class="text-red-500 font-bold">COLLEGE OF ENGINEERING TECHNOLOGY</p>
+                        <p class="text-[8px] sm:text-xs leading-none">APPROVED BY AICTE NEW DELHI & AFFILIATED TO PONDICHERRY UNIVERSITY <BR>
                             Achariyapuram,Villianur,Puducherry-605 110
                             </BR></p>
                     </li>
-                    <li><span class="theme"><img src="./brightness-and-contrast.png" alt="theme"></span></li>
-                    <li class="header-li"><img src="./Screenshot 2023-10-01 202205.png" alt=""></li>
+                    <li ><img class="h-20 md:h-24" src="./Screenshot 2023-10-01 202205.png" alt=""></li>
                 </ul>
             </nav>
         </header>
-        <main class="content-firstpage">
-            <section class="title">
-                <h1> CSE DEPARTMENT-2023</h1>
+        <main class="main-content" >
+            <section class="sm:col-span-2 text-center border-b-2 font-bold   border-blue-800">
+                <h1 class="grid h-full place-content-center  "> CSE DEPARTMENT-2023 <br> STUDENTS DATA</h1>
             </section>
-            <a class="section-IIA" href="./secondA.html">
+            <a class="sections" href="./secondA.html"class="">
                 <section>II YEAR(A)</section>
             </a>
-            <a href="./secondB.html" class="section-IIB">
+            <a class="sections" href="./secondB.html" >
                 <section>II YEAR(B)</section>
             </a>
-            <a href="./thirdA.html" class="section-IIIA">
+            <a class="sections" href="./thirdA.html" >
                 <section>III YEAR(A)</section>
             </a>
-            <a href="./thirdB.html" class="section-IIIB">
+            <a class="sections" href="./thirdB.html" >
                 <section>III YEAR(B)</section>
             </a>
-            <a href="./fourth.html" class="section-IV">
-                <section>IV YEAR</section>
+            <a class="sm:col-span-2 text-center " href="./fourth.html">
+                <section class=" sections border-b-0">IV YEAR</section>
             </a>
         </main>
-        <footer class="foot"></footer>
+        <footer class="h-1/6"></footer>
     </div>
+    <script src="./firstpage.js"></script>
 </body>
 
 </html>

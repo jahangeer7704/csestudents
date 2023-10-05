@@ -2,16 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 @layer components{
-    .sections{
-        @apply grid h-full place-content-center   font-bold  hover:border-l hover:bg-sky-300 ;
-   color: rgb(255, 255, 255);
-   border-color: rgb(0, 0, 0);
-    }
-    .main-content{
-        @apply grid-cols-1 bg-gradient-to-br from-sky-300 to-sky-500 h-5/6 overflow-auto mt-3 ;
-        
-        @apply h-4/6 shadow-lg shadow-stone-400 w-4/5 mx-auto justify-center  rounded-t-xl grid  sm:grid-cols-2 ;
+ tr{
+    @apply text-white;
+ }
+ tbody tr td{
+    color: black;
+ }
 
-
-    }
 }

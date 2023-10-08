@@ -2,11 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 @layer components{
+   *{
+      margin: 0;
+      padding: 0;
+   }
+   body{
+      height: 100%;
+      background-color: #9CA3AF;
+   }
  tr{
-    @apply text-white;
+    @apply text-white even:bg-gray-300;
+
  }
  tbody tr td{
     color: black;
+    height: 50px;
+    @apply border-b-2 border-black 
  }
+ tbody tr{
+   @apply  hover:bg-gray-300
+ }
+.search-div{
+   @apply border rounded-lg  h-10 flex items-center transition-all duration-300 border-gray-700
 
+}
+ #search-bar-size:checked ~ .search-div{
+@apply w-44 text-white border-[3px];
+
+border-color: aqua;
+font-family: monospace;
+ 
+}
 }

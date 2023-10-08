@@ -13,43 +13,58 @@
         <header>
 
             <nav class="">
-                <ul class="flex justify-between  mt-3">
-                    <li class="flex "><svg class="w-[28px] mt-1 h-[28px] text-gray-800 dark:text-white"
-                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                <ul class="flex justify-between mt-2 ">
+                    <li class="inline-flex"><a  href="./index.html">
+
+                        <svg class="w-[28px]  ml-1 h-[28px]  dark:text-white"
+                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20">
-                            <path fill="black"
+                            <path fill="aqua"
                                 d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
-                        </svg></li>
-                    <li>
-                        <input
-                            class=" h-10 border-b-2 border-yellow-300 w-32 rounded-full sm:w-48 focus:outline-none bg-gray-400"
-                            type="search">
+                        </svg>
+                    </a>
                     </li>
-                    <li><svg class="w-[28px] h-[28px] mt-1 text-gray-800 dark:text-white" aria-hidden="true"
+                        
+                    <li class="">
+                        <input type="checkbox" class="hidden" id="search-bar-size">
+                        <div class="search-div bg-gray-500 w-16">
+                        
+                            <label class="search-icon pl-1" for="search-bar-size"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="aqua" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                              </svg></label>
+                            <input class="focus:outline-none h-9 bg-transparent placeholder:text-gray-800 w-full rounded-lg ml-1 p-2" type="search"
+                                placeholder="Name or Reg.No" id="search-box">
+                            </div>
+                           
+                    </li>
+                    <li><svg class="w-[28px] opacity-10 h-[28px]  text-gray-800 dark:text-white " aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill="black"d="M9.546.5a9.5 9.5 0 1 0 9.5 9.5 9.51 9.51 0 0 0-9.5-9.5ZM13.788 11h-3.242v3.242a1 1 0 1 1-2 0V11H5.304a1 1 0 0 1 0-2h3.242V5.758a1 1 0 0 1 2 0V9h3.242a1 1 0 1 1 0 2Z" />
+                            <path fill="black"
+                                d="M9.546.5a9.5 9.5 0 1 0 9.5 9.5 9.51 9.51 0 0 0-9.5-9.5ZM13.788 11h-3.242v3.242a1 1 0 1 1-2 0V11H5.304a1 1 0 0 1 0-2h3.242V5.758a1 1 0 0 1 2 0V9h3.242a1 1 0 1 1 0 2Z" />
                         </svg></li>
                 </ul>
             </nav>
         </header>
         <main class=" mt-8  overflow-x-auto ">
             <table class="w-[700px] md:rounded-lg md:w-4/5 mx-auto  border-collapse  sm:rounded-t-lg  text-center">
+            <caption class="caption-top font-bold text-[30px]">II A</caption>
+
                 <thead class="bg-black text-white  ">
 
                     <tr class="">
-                    <th class="">S NO</th>
+                        <th class="">S NO</th>
                         <th>REG NO</th>
                         <th>NAME</th>
                         <th> PHONE</th>
                         <th> EMAIL</th>
                     </tr>
                 </thead>
-                <tbody class="text-black">
+                <tbody class="text-black ">
 
-                    
+
                 </tbody>
             </table>
-                    </main>
+        </main>
     </div>
     <script src="./secondA.js"></script>
 </body>

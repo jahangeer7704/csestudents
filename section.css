@@ -534,14 +534,11 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
 *{
   margin: 0;
   padding: 0;
-}
-
-body{
-  height: 100%;
-  background-color: #9CA3AF;
 }
 
 tr {
@@ -557,6 +554,7 @@ tr:nth-child(even) {
 tbody tr td{
   color: black;
   height: 50px;
+  font-family: 'Poppins', sans-serif;
   border-bottom-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity))
@@ -589,8 +587,20 @@ tbody tr:hover {
   font-family: monospace;
 }
 
+#search-bar-size:checked + .search-div > #search-box {
+  display: block;
+}
+
 .absolute {
   position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .bottom-0 {
@@ -606,6 +616,10 @@ tbody tr:hover {
   margin-left: 0.25rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -614,12 +628,16 @@ tbody tr:hover {
   margin-top: 2rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .box-border {
   box-sizing: border-box;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -672,6 +690,38 @@ tbody tr:hover {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[15\] {
+  height: 15;
+}
+
+.h-\[15\%\] {
+  height: 15%;
+}
+
+.h-\[150px\] {
+  height: 150px;
+}
+
+.h-\[px\] {
+  height: px;
+}
+
+.h-\[80px\] {
+  height: 80px;
+}
+
+.h-\[75px\] {
+  height: 75px;
+}
+
+.h-\[85px\] {
+  height: 85px;
 }
 
 .w-16 {
@@ -728,6 +778,10 @@ tbody tr:hover {
   align-content: center;
 }
 
+.content-end {
+  align-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -773,6 +827,11 @@ tbody tr:hover {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -837,14 +896,14 @@ tbody tr:hover {
   opacity: 0.1;
 }
 
-.placeholder\:text-gray-800::-moz-placeholder {
+.placeholder\:text-gray-200::-moz-placeholder {
   --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
-.placeholder\:text-gray-800::placeholder {
+.placeholder\:text-gray-200::placeholder {
   --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {

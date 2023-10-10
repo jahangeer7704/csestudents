@@ -20,7 +20,7 @@ let dataCreater = (row, array, i) => {
 
 //fetch the data student.json
 let dataGetter = async () => {
-  let data = await fetch("./secondA.json");
+  let data = await fetch("./secondB.json");
   let value = await data.json();
   datasetter(value);
   return 0;

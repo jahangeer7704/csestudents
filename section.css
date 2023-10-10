@@ -591,22 +591,6 @@ tbody tr:hover {
   display: block;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.sticky {
-  position: sticky;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -620,6 +604,10 @@ tbody tr:hover {
   margin-left: 0.5rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -628,12 +616,12 @@ tbody tr:hover {
   margin-top: 2rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
 .box-border {
   box-sizing: border-box;
+}
+
+.block {
+  display: block;
 }
 
 .inline-block {
@@ -680,6 +668,10 @@ tbody tr:hover {
   height: 28px;
 }
 
+.h-\[85px\] {
+  height: 85px;
+}
+
 .h-auto {
   height: auto;
 }
@@ -690,38 +682,6 @@ tbody tr:hover {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[15\] {
-  height: 15;
-}
-
-.h-\[15\%\] {
-  height: 15%;
-}
-
-.h-\[150px\] {
-  height: 150px;
-}
-
-.h-\[px\] {
-  height: px;
-}
-
-.h-\[80px\] {
-  height: 80px;
-}
-
-.h-\[75px\] {
-  height: 75px;
-}
-
-.h-\[85px\] {
-  height: 85px;
 }
 
 .w-16 {
@@ -774,10 +734,6 @@ tbody tr:hover {
   place-content: center;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .content-end {
   align-content: flex-end;
 }
@@ -827,11 +783,6 @@ tbody tr:hover {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -894,6 +845,10 @@ tbody tr:hover {
 
 .opacity-10 {
   opacity: 0.1;
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .placeholder\:text-gray-200::-moz-placeholder {

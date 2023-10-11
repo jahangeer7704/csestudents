@@ -539,16 +539,12 @@ video {
 *{
   margin: 0;
   padding: 0;
+  background-repeat: no-repeat;
 }
 
 tr {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-tr:nth-child(even) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 tbody tr td{
@@ -562,7 +558,7 @@ tbody tr td{
 
 tbody tr:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 .search-div {
@@ -572,7 +568,7 @@ tbody tr:hover {
   border-radius: 0.5rem;
   border-width: 1px;
   --tw-border-opacity: 1;
-  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
@@ -583,12 +579,18 @@ tbody tr:hover {
   border-width: 3px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-  border-color: aqua;
-  font-family: monospace;
+  border-color: rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
 }
 
 #search-bar-size:checked + .search-div > #search-box {
   display: block;
+}
+
+.header-svg{
+  position: absolute;
+  z-index: -1;
+  top: 0;
 }
 
 .mx-auto {
@@ -618,10 +620,6 @@ tbody tr:hover {
 
 .box-border {
   box-sizing: border-box;
-}
-
-.block {
-  display: block;
 }
 
 .inline-block {
@@ -766,23 +764,18 @@ tbody tr:hover {
   border-bottom-width: 2px;
 }
 
-.border-blue-800 {
+.border-blue-950 {
   --tw-border-opacity: 1;
-  border-color: rgb(30 64 175 / var(--tw-border-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+  border-color: rgb(23 37 84 / var(--tw-border-opacity));
 }
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -838,17 +831,8 @@ tbody tr:hover {
   color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .opacity-10 {
   opacity: 0.1;
-}
-
-.filter {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .placeholder\:text-gray-200::-moz-placeholder {

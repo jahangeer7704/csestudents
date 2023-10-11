@@ -52,5 +52,7 @@ font-family:'Times New Roman', Times, serif;
    position: absolute;
    z-index: -1;
    top: 0;
+   @apply  h-[150px]  sm:h-auto  overflow-hidden;
+ 
 }
 }

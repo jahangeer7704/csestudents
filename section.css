@@ -590,15 +590,9 @@ tbody tr:hover {
 .header-svg{
   position: absolute;
   z-index: -1;
-  top: 0;
-  height: 150px;
-  overflow: hidden;
-}
-
-@media (min-width: 640px) {
-  .header-svg {
-    height: auto;
-  }
+  top: 0px;
+  width: calc(100%);
+  height: 285px;
 }
 
 .mx-auto {
